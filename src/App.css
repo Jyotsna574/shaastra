@@ -1,0 +1,156 @@
+body {
+  background-image: url(C:\Users\Frooty\Desktop\xyz\workshops\public\bgpurple.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+
+}
+.title{
+  
+position: absolute;
+width: 941px;
+height: 200px;
+left: 310px;
+top: 100px;
+
+
+font-family: 'PT Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 128px;
+line-height: 166px;
+text-decoration-line: underline;
+
+color: #FFFFFF;
+}
+.text1{
+
+  position: absolute;
+width: 943px;
+height: 260px;
+left: 301px;
+top: 436px;
+
+font-family: 'Inter';
+color: #FEF1F1;
+font-style: normal;
+font-weight: 500;
+font-size: 28px;
+line-height: 34px;
+
+
+}
+.glassmorphic1
+{
+  box-sizing: border-box;
+  position: absolute;
+  width: 1046px;
+  height: 420px;
+  left: 228px;
+  top: 356px;
+  
+  background: linear-gradient(117.5deg, rgba(255, 255, 255, 0.15) -69.92%, rgba(255, 255, 255, 0.17) -69.92%, rgba(255, 255, 255, 0.21) -69.9%, rgba(255, 255, 255, 0.13) -48.83%, rgba(255, 255, 255, 0.09) 82.65%);
+  box-shadow: 4px -4px 24px -1px rgba(24, 30, 97, 0.2);
+  backdrop-filter: blur(40px);
+  /* Note: backdrop-filter has minimal browser support */
+  
+  border-radius: 30px;
+}
+     
+
+button
+{
+   position: absolute;
+    width: 455px;
+    height: 103px;
+    left: 553px;
+    top: 640px;
+    color:#FEF1F1;
+    background-color: transparent;
+    border-radius: 20px;
+    margin: 0px;
+    border-color: transparent;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    text-decoration: underline;
+    font-size: 36px;
+    line-height: 4px;
+    margin: auto;
+    
+}
+.glassmorphic2
+{
+  box-sizing: border-box;
+  padding-left: 150px;
+  padding-top: 125px;
+
+  position: absolute;
+  width: 1240px;
+  height: 1235px;
+  left: 126px;
+  top: 1006px;
+  
+  background: linear-gradient(117.5deg, rgba(255, 255, 255, 0.15) -69.92%, rgba(255, 255, 255, 0.17) -69.92%, rgba(255, 255, 255, 0.21) -69.9%, rgba(255, 255, 255, 0.13) -48.83%, rgba(255, 255, 255, 0.09) 82.65%);
+  box-shadow: 4px -4px 24px -1px rgba(24, 30, 97, 0.2);
+  backdrop-filter: blur(40px);
+  /* Note: backdrop-filter has minimal browser support */
+  
+  border-radius: 153px;
+  
+}
+.searchbox
+{
+
+  position: relative;
+  box-sizing: border-box;
+  width: 87%;
+background: linear-gradient(117.5deg, rgba(255, 255, 255, 0.15) -69.92%, rgba(255, 255, 255, 0.17) -69.92%, rgba(255, 255, 255, 0.21) -69.9%, rgba(255, 255, 255, 0.13) -48.83%, rgba(255, 255, 255, 0.09) 82.65%);
+box-shadow: 4px -4px 24px -1px rgba(24, 30, 97, 0.2);
+backdrop-filter: blur(40px);
+/* Note: backdrop-filter has minimal browser support */
+
+border-radius: 40px;
+padding: 8px;
+}
+
+input[type=text] 
+{
+  width: 100%;
+  box-sizing: border-box;
+  border: 0px ;
+  border-radius: 40px;
+  font-size: 30px;
+  font-style: normal;
+  color: #fefafa;
+  background: linear-gradient(117.5deg, rgba(255, 255, 255, 0.15) -69.92%, rgba(255, 255, 255, 0.17) -69.92%, rgba(255, 255, 255, 0.21) -69.9%, rgba(255, 255, 255, 0.13) -48.83%, rgba(255, 255, 255, 0.09) 82.65%);
+  
+  background-color: transparent;
+  background-image: url(C:\Users\Frooty\Desktop\xyz\eventsweb\public\Vector.png);
+  background-position: 10px 4px; 
+  background-repeat: no-repeat;
+  padding: 6px 20px 10px 60px;
+}
+.wrapper {
+  position: relative;
+
+  display: flex;
+
+}
+.card 
+{
+  box-sizing: border-box;
+
+
+  background: linear-gradient(117.5deg, rgba(255, 255, 255, 0.15) -69.92%, rgba(255, 255, 255, 0.17) -69.92%, rgba(255, 255, 255, 0.21) -69.9%, rgba(255, 255, 255, 0.13) -48.83%, rgba(255, 255, 255, 0.09) 82.65%);
+  box-shadow: 4px -4px 24px -1px rgba(24, 30, 97, 0.2);
+  backdrop-filter: blur(40px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 60px;
+}
+.title{
+   font-family: 'PT Sans';
+   color: #fefafa;
+}
