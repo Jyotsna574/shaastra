@@ -1,5 +1,5 @@
 body {
-  background-image: url(C:\Users\Frooty\Desktop\xyz\workshops\public\bgpurple.jpg);
+  background-image: url(../public/bgpurple.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   box-sizing: border-box;
@@ -58,7 +58,7 @@ line-height: 34px;
 }
      
 
-button
+/* button
 {
    position: absolute;
     width: 455px;
@@ -79,7 +79,7 @@ button
     line-height: 4px;
     margin: auto;
     
-}
+} */
 .glassmorphic2
 {
   box-sizing: border-box;
@@ -88,7 +88,7 @@ button
 
   position: absolute;
   width: 1240px;
-  height: 1235px;
+  
   left: 126px;
   top: 1006px;
   
@@ -127,18 +127,20 @@ input[type=text]
   background: linear-gradient(117.5deg, rgba(255, 255, 255, 0.15) -69.92%, rgba(255, 255, 255, 0.17) -69.92%, rgba(255, 255, 255, 0.21) -69.9%, rgba(255, 255, 255, 0.13) -48.83%, rgba(255, 255, 255, 0.09) 82.65%);
   
   background-color: transparent;
-  background-image: url(C:\Users\Frooty\Desktop\xyz\eventsweb\public\Vector.png);
+  background-image: url(../public/bgpurple.jpg);
   background-position: 10px 4px; 
   background-repeat: no-repeat;
   padding: 6px 20px 10px 60px;
 }
 .wrapper {
-  position: relative;
-
-  display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    overflow: hidden;
+    padding: 10px;
 
 }
-.card 
+/* .card 
 {
   box-sizing: border-box;
 
@@ -146,11 +148,24 @@ input[type=text]
   background: linear-gradient(117.5deg, rgba(255, 255, 255, 0.15) -69.92%, rgba(255, 255, 255, 0.17) -69.92%, rgba(255, 255, 255, 0.21) -69.9%, rgba(255, 255, 255, 0.13) -48.83%, rgba(255, 255, 255, 0.09) 82.65%);
   box-shadow: 4px -4px 24px -1px rgba(24, 30, 97, 0.2);
   backdrop-filter: blur(40px);
-  /* Note: backdrop-filter has minimal browser support */
+ 
 
   border-radius: 60px;
-}
+  max-width: 400px;
+} */
 .title{
    font-family: 'PT Sans';
    color: #fefafa;
+}
+.cardButtonsContainer{
+  display: flex;
+  justify-content: space-between;
+}
+/* .cardKnowMoreButton{
+  background: transparent;
+} */
+
+.nextIcon{
+  max-width: 20px;
+  margin-left: 10px;
 }
